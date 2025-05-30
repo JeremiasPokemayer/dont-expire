@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=McLaren&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Port+Lligat+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Satisfy&display=swap");
+
+/* distintas font-family: "McLaren", "Mulish", "Podkova", "Poppins", "Port Lligat Sans", "Roboto", "Rock Salt", "Satisfy"
+
+Para los colores del fondo difuminado usar background: linear-gradient(to right, #f8d57e, #927d4a); //difumina de izq a derecha
+background:linear-gradient(#f8d57e, #927d4a, #927d4a); //difumina de arriba para abajo
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
