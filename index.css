@@ -2,8 +2,8 @@
 
 /* distintas font-family: "McLaren", "Mulish", "Podkova", "Poppins", "Port Lligat Sans", "Roboto", "Rock Salt", "Satisfy"
 
-Para los colores del fondo difuminado usar background: linear-gradient(to right, #f8d57e, #927d4a); //difumina de izq a derecha
-background:linear-gradient(#f8d57e, #927d4a, #927d4a); //difumina de arriba para abajo
+Para los colores difuminados usar background: linear-gradient(to right, #color, #color); //difumina de izq a derecha
+background:linear-gradient(#color, #color, #color); //difumina de arriba para abajo
 */
 
 * {
