@@ -29,13 +29,46 @@ body {
 
 }
 
-
-
 .notificaciones__titulo {
   font-family: 'Podkova';
   font-size: 40px;
   font-weight: 500;
   text-align: center;
+  margin: 39px 0;
 }
+
+
+.producto-expirado {
+  position: relative;
+  width: 301px;
+  height: 100px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #FF0000, #570000);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: centers;
+
+}
+
+.imagen-fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("./public/x.png");
+  background-repeat: repeat;
+  background-size: 50px 50px;
+  opacity: 5%;
+  pointer-events: none;
+
+}
+.producto-expirado p {
+  margin: 0;
+ }
+
+
+
 
 /* NOTIFICACIONES */
