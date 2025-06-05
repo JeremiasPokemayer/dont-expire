@@ -29,6 +29,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 30px;
+  gap: 89px;
 }
 .informacion-ctn-title-one,
 .informacion-ctn-title-two,
@@ -37,7 +38,7 @@ body {
   font-size: 30px;
   padding: 5px 5px;
   margin: 0;
-  border-radius: 20px;
+  border-radius: 40px;
   border: solid 3px black;
   text-align: center;
 }
@@ -64,15 +65,22 @@ body {
   max-width: 500px;
   width: 100%;
   /* background-color: red; */
-  margin-bottom: 89px;
+  /* margin-bottom: 89px; */
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
 }
+.informacion-ctn-img-container {
+  flex-grow: 1; /* Hace que este div ocupe todo el espacio restante */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .informacion-ctn-img {
-  width: 15px;
+  width: 100%;
   height: 100px;
   margin: 10px auto;
 }
@@ -91,4 +99,20 @@ body {
 }
 .informacion-span-yellow {
   color: #f8d57e;
+}
+@media (min-width: 1280px) {
+  .informacion-ctn-cards {
+    flex-direction: row;
+    min-height: 490px;
+    gap: 41px;
+  }
+  .informacion-ctn-cards-card {
+    background-color: transparent;
+  }
+  .informacion-ctn-text {
+    min-height: 235px;
+  }
+  .informacion-card-two {
+    margin-top: 61px;
+  }
 }
