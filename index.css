@@ -48,13 +48,21 @@ body {
   border: 3px solid black;
   border-radius: 30px;
   padding: 40px 30px;
+  color: #2d2d2d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 .beneficios .alertas {
+  background: linear-gradient(180deg, #e0fec5 0%, #ffcfa0 100%);
 }
 .beneficios .sugerencias {
+  background: linear-gradient(180deg, #9fcaee 0%, #bcffc8 100%);
 }
-.beneficios .estidisticas {
+.beneficios .estadisticas {
+  background: linear-gradient(180deg, #ffc999 0%, #ff8d8d 100%);
 }
 
 .beneficios .card .icon {
@@ -64,13 +72,17 @@ body {
 }
 
 .beneficios .alertas .icon {
+  background: #7ffd5287;
 }
 .beneficios .sugerencias .icon {
+  background: #009a7f80;
 }
-.beneficios .estidisticas .icon {
+.beneficios .estadisticas .icon {
+  background: #c43b00a6;
 }
 
 .beneficios .card h3 {
+  margin: 0;
   font-family: Poppins;
   font-weight: 600;
   font-size: 28px;
@@ -80,6 +92,7 @@ body {
 }
 
 .beneficios .card p {
+  margin: 0;
   font-family: Mulish;
   font-weight: 400;
   font-size: 23px;
