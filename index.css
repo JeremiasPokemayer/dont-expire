@@ -13,3 +13,99 @@ background:linear-gradient(#color, #color, #color); //difumina de arriba para ab
 body {
   margin: 0 auto;
 }
+
+:root {
+  --base-f-size: 1rem;
+  --max-f-size: ;
+}
+
+/* Benefits section */
+.beneficios {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 30px;
+}
+
+.beneficios h2 {
+  font-family: Port Lligat Sans;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: center;
+}
+
+.beneficios section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.beneficios .card {
+  max-width: 380px;
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 40px 30px;
+}
+
+.beneficios .alertas {
+}
+.beneficios .sugerencias {
+}
+.beneficios .estidisticas {
+}
+
+.beneficios .card .icon {
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.beneficios .alertas .icon {
+}
+.beneficios .sugerencias .icon {
+}
+.beneficios .estidisticas .icon {
+}
+
+.beneficios .card h3 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: -1%;
+  text-align: center;
+}
+
+.beneficios .card p {
+  font-family: Mulish;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.beneficios .card a {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #009379;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.beneficios .card a span {
+  padding-left: 5px;
+  transition: all 0.5s;
+}
+
+.beneficios .card a:hover span {
+  padding-left: 10px;
+}
