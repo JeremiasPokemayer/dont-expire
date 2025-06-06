@@ -122,3 +122,20 @@ body {
 .beneficios .card a:hover span {
   padding-left: 10px;
 }
+
+@media (min-width: 768px) {
+  .beneficios {
+    padding: 120px 30px;
+  }
+  .beneficios h2 {
+    font-size: 67px;
+    line-height: 130%;
+    letter-spacing: -2.5%;
+  }
+}
+@media (min-width: 1024px) {
+  .beneficios section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
