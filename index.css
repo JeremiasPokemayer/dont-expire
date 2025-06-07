@@ -14,8 +14,12 @@ body {
   margin: 0 auto;
 }
 
+/* 
+
+
 
 /* NOTIFICACIONES */
+
 .notificaciones {
   max-width: 440px;
   background-color: rgba(248, 213, 126, 0.3);
@@ -25,50 +29,105 @@ body {
   justify-content: center;
   align-items: center;
   color: #000000;
+  padding-bottom: 40px;
+}
 
-
+@media (min-width:441px) {
+  .notificaciones {
+    max-width: 690px;
+  }
 }
 
 .notificaciones__titulo {
-  font-family: 'Podkova';
+  font-family: "Podkova";
   font-size: 40px;
   font-weight: 500;
   text-align: center;
   margin: 39px 0;
 }
 
-
 .producto-expirado {
   position: relative;
   width: 301px;
   height: 100px;
   border-radius: 20px;
-  background: linear-gradient(to right, #FF0000, #570000);
+  background: linear-gradient(to right, #ff0000, #570000);
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  align-items: centers;
-
+  align-items: center;
+  padding: 30px;
 }
 
-.imagen-fondo {
+.image-expirado {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("./public/x.png");
   background-repeat: repeat;
-  background-size: 50px 50px;
-  opacity: 5%;
-  pointer-events: none;
+  background-image: url("https://i.ibb.co/RpzMVDqQ/cruz.png");
+  background-size: 33px 33px;
+  opacity: 0.05;
+  z-index: 0;
+}
+
+.image-trash {
+  height: 23px;
+  width: 23px;
+  left: 5px;
+  top: 7px;
+  position: absolute;
+  background-image: url("https://i.ibb.co/ZRS7Ypb6/pngwing-com.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.image-edit {
+  height: 23px;
+  width: 23px;
+  left: 6px;
+  top: 67px;
+  position: absolute;
+  background-image: url("https://i.ibb.co/qFXpTyjr/pngwing-com-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.image-product {
+  height: 65px;
+  width: 65px;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.title-product {
+  margin: 0 0 0 4px;
+  font-family: "McLaren";
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+}
+
+/* POR EXPIRAR */
+.producto-2-dias {
+  background: linear-gradient(to right, #E2CF00, #762D00);
 
 }
-.producto-expirado p {
-  margin: 0;
- }
 
+.imagen-2 {
+  background-image: url("https://png.pngtree.com/png-vector/20210225/ourmid/pngtree-hand-painted-yellow-exclamation-mark-png-image_2951123.jpg");
 
+}
 
+.imagen-3 {
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTUAK0pJnGtrT4kEQlvd2KuaiM40IXZEKPnjRvl8RDXifh5s1zD");
 
-/* NOTIFICACIONES */
+}
+
+.producto-3-dias {
+  background: linear-gradient(to right, #00E208, #045000);
+
+}
