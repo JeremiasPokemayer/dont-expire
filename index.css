@@ -13,3 +13,124 @@ background:linear-gradient(#color, #color, #color); //difumina de arriba para ab
 body {
   margin: 0 auto;
 }
+
+/* Benefits section */
+.beneficios {
+  width: 100%;
+  max-width: 1200px; /* Mover cuando se use el contenedor para el background */
+  margin: 0 auto;
+  padding: 60px 30px; /* Mover/cambiar cuando se use el contenedor para el background */
+}
+
+.beneficios h2 {
+  font-family: Port Lligat Sans;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: center;
+}
+
+.beneficios section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.beneficios .card {
+  max-width: 380px;
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 40px 30px;
+  color: #2d2d2d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.beneficios .alertas {
+  background: linear-gradient(180deg, #e0fec5 0%, #ffcfa0 100%);
+}
+.beneficios .sugerencias {
+  background: linear-gradient(180deg, #9fcaee 0%, #bcffc8 100%);
+}
+.beneficios .estadisticas {
+  background: linear-gradient(180deg, #ffc999 0%, #ff8d8d 100%);
+}
+
+.beneficios .card .icon {
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.beneficios .alertas .icon {
+  background: #7ffd5287;
+}
+.beneficios .sugerencias .icon {
+  background: #009a7f80;
+}
+.beneficios .estadisticas .icon {
+  background: #c43b00a6;
+}
+
+.beneficios .card h3 {
+  margin: 0;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: -1%;
+  text-align: center;
+}
+
+.beneficios .card p {
+  margin: 0;
+  font-family: Mulish;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.beneficios .card a {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #009379;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.beneficios .card a span {
+  padding-left: 5px;
+  transition: all 0.5s;
+}
+
+.beneficios .card a:hover span {
+  padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .beneficios {
+    padding: 120px 30px; /* Mover/cambiar cuando se use el contenedor para el background */
+  }
+  .beneficios h2 {
+    font-size: 67px;
+    line-height: 130%;
+    letter-spacing: -2.5%;
+  }
+}
+@media (min-width: 1024px) {
+  .beneficios section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
