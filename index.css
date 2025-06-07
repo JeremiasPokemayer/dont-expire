@@ -14,17 +14,12 @@ body {
   margin: 0 auto;
 }
 
-:root {
-  --base-f-size: 1rem;
-  --max-f-size: ;
-}
-
 /* Benefits section */
 .beneficios {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1200px; /* Mover cuando se use el contenedor para el background */
   margin: 0 auto;
-  padding: 60px 30px;
+  padding: 60px 30px; /* Mover/cambiar cuando se use el contenedor para el background */
 }
 
 .beneficios h2 {
@@ -125,7 +120,7 @@ body {
 
 @media (min-width: 768px) {
   .beneficios {
-    padding: 120px 30px;
+    padding: 120px 30px; /* Mover/cambiar cuando se use el contenedor para el background */
   }
   .beneficios h2 {
     font-size: 67px;
