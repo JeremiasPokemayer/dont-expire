@@ -4,15 +4,247 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>don't expire</title>
+    <script async src="./index.js"></script>
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <header class="header">Aca arranca el header</header>
-    <div class="presentacion">Aca arranca presentación</div>
-    <div class="beneficios">Aca arranca beneficios</div>
-    <div class="notificaciones">Aca arranca notificaciones</div>
-    <div class="informacion">Aca arranca informacion</div>
-    <div class="form">Aca arranca form</div>
-    <footer class="footer">Aca arranca footer</footer>
+    <header class="header">
+      <div class="logo">
+        <img
+          src="https://i.ibb.co/1GX6R9Pz/Logo-fondo-F8-D57-E.png"
+          alt="image_header"
+          class="image_header"
+        />
+        <h1 class="title_header">don´T Expire</h1>
+      </div>
+      <div class="links_header">
+        <button class="text_header-beneficios">Beneficios</button>
+        <button class="text_header-alert">Alertas</button>
+        <button class="text_header-info">+Info</button>
+        <button class="button_header-contacto">Contacto</button>
+      </div>
+      <button class="button_barras"></button>
+    </header>
+    <div class="header_oculto">
+      <button class="button_header-oculto-cerrar">X</button>
+      <button class="text_header-oculto-beneficios">Beneficios</button>
+      <button class="text_header-oculto-alert">Alertas</button>
+      <button class="text_header-oculto-info">+Info</button>
+      <button class="text_header-oculto-w">Contacto</button>
+    </div>
+    <div class="presentacion">
+      <div class="hero">
+        <h1 class="title_hero-blue">Organizá tu despensa.</h1>
+        <h1 class="title_hero-red">Reducí el desperdicio.</h1>
+        <h1 class="title_hero-green">Aprovechá lo que tenés.</h1>
+        <p class="text_hero">Recibí alertas automáticas, recetas útiles</p>
+        <p class="text_hero">y controlá tu consumo sin esfuerzo.</p>
+      </div>
+      <div class="hero_mobile">
+        <h1 class="title_hero_mobile-blue">Organizá.</h1>
+        <h1 class="title_hero_mobile-red">Reducí.</h1>
+        <h1 class="title_hero_mobile-green">Aprovechá.</h1>
+        <p class="text_hero_mobile">Recibí alertas automáticas,</p>
+        <p class="text_hero_mobile">recetas útiles</p>
+        <p class="text_hero_mobile">y controlá tu consumo sin esfuerzo.</p>
+      </div>
+    </div>
+    <div id="beneficios" class="beneficios">
+      <header>
+        <h2>Beneficios clave</h2>
+      </header>
+      <section>
+        <article class="card alertas">
+          <div class="icon">
+            <img
+              src="https://i.ibb.co/5hVQ6zxD/Megaphone.png"
+              alt="Alerta de vencimiento"
+            />
+          </div>
+          <header>
+            <h3>Alertas de Vencimiento</h3>
+          </header>
+          <p>Nunca más pierdas comida por olvido.</p>
+          <a href="#">Leer más <span>→</span></a>
+        </article>
+        <article class="card sugerencias">
+          <div class="icon">
+            <img
+              src="https://i.ibb.co/Rp4rb2bn/Magic-Wand.png"
+              alt="Alerta de vencimiento"
+            />
+          </div>
+          <header>
+            <h3>Sugerencias de Recetas</h3>
+          </header>
+          <p>Usá lo que tenés antes de que se venza.</p>
+          <a href="#">Leer más <span>→</span></a>
+        </article>
+        <article class="card estadisticas">
+          <div class="icon">
+            <img
+              src="https://i.ibb.co/fz24hpbv/ChartBar.png"
+              alt="Alerta de vencimiento"
+            />
+          </div>
+          <header>
+            <h3>Estadísticas Inteligentes</h3>
+          </header>
+          <p>Conocé tus hábitos y reducí el desperdicio.</p>
+          <a href="#">Leer más <span>→</span></a>
+        </article>
+      </section>
+    </div>
+    <div id="alertas" class="notificaciones">
+      <div class="notificaciones_container">
+        <h2 class="notificaciones__titulo">
+          Notificación de alimentos expirados
+        </h2>
+        <div class="producto-expirado">
+          <div class="image-expirado"></div>
+          <div class="image-trash"></div>
+          <div class="image-edit"></div>
+          <img
+            src="https://i.ibb.co/MdKhD0x/platanos-en-fondo-blanco.jpg"
+            alt="image-product"
+            class="image-product"
+          />
+          <h2 class="title-product">Producto expirado</h2>
+        </div>
+        <h2 class="notificaciones__titulo">Pronto a expirar</h2>
+        <div class="producto-expirado producto-2-dias">
+          <div class="image-expirado imagen-2"></div>
+          <div class="image-trash"></div>
+          <div class="image-edit"></div>
+          <img
+            src="https://img.freepik.com/foto-gratis/carne-cruda-pollo_1203-6759.jpg"
+            alt="image-product"
+            class="image-product"
+          />
+          <h2 class="title-product">Expira en 2 dias</h2>
+        </div>
+
+        <h2 class="notificaciones__titulo">A tiempo de consumir</h2>
+        <div class="producto-expirado producto-3-dias">
+          <div class="image-expirado imagen-3"></div>
+          <div class="image-trash"></div>
+          <div class="image-edit"></div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlip7oh8TCa_z3_dcNQ3nFt3IZ5tzcCR679C42DdsmJweFRrQ3"
+            alt="image-product"
+            class="image-product"
+          />
+          <h2 class="title-product">Expira en 2 dias</h2>
+        </div>
+      </div>
+    </div>
+    <div class="informacion" id="info">
+      <h3 class="informacion-title-hthree">¿Y cómo se supone que hago esto?</h3>
+      <div class="informacion-container">
+        <div class="informacion-ctn-cards">
+          <div class="informacion-ctn-cards-card">
+            <p class="informacion-ctn-title-one">¿Agregar los alimentos?</p>
+            <div class="informacion-ctn-img-container">
+              <img
+                class="informacion-ctn-img"
+                src="https://i.ibb.co/GQpG185q/image.png"
+                alt=""
+              />
+            </div>
+            <p class="informacion-ctn-text">
+              <span class="informacion-span-yellow">Fácil</span>Lo hacés vos
+              mismo, en segundos. Con un simple click!
+            </p>
+          </div>
+
+          <div class="informacion-ctn-cards-card informacion-card-two">
+            <p class="informacion-ctn-title-two">¿Evitar que se venzan?</p>
+            <div class="informacion-ctn-img-container">
+              <img
+                class="informacion-ctn-img"
+                src="https://i.ibb.co/GQpG185q/image.png"
+                alt=""
+              />
+            </div>
+            <p class="informacion-ctn-text">
+              Activá alertas y listo.
+              <span class="informacion-span-yellow"
+                >¡Nosotros te avisamos!</span
+              >
+            </p>
+          </div>
+
+          <div class="informacion-ctn-cards-card">
+            <p class="informacion-ctn-title-three">¿Sin pensar qué cocinar?</p>
+            <div class="informacion-ctn-img-container">
+              <img
+                class="informacion-ctn-img"
+                src="https://i.ibb.co/GQpG185q/image.png"
+                alt=""
+              />
+            </div>
+            <p class="informacion-ctn-text">
+              <span class="informacion-span-yellow">¡¡¡Exacto!!!</span>Te damos
+              recetas con tus productos disponibles
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ctn_form" id="contacto">
+      <h2 class="title_form">
+        <span class="desktop-text">
+          ¿Querés formar parte de los primeros en organizar su despensa de forma
+          inteligente?
+        </span>
+        <span class="mobile-text"> ¿Querés formar parte? </span>
+      </h2>
+      <div class="ctn_title-form">
+        <h4 class="title_formandbtn">
+          <span class="desktop-text">
+            👇 Contanos qué te gustaría ver en la app 👇
+          </span>
+          <span class="mobile-text"> 👇 Contanos qué te gustaría 👇 </span>
+        </h4>
+        <div class="ctn_formandbtn">
+          <form
+            class="form"
+            action="https://formspree.io/f/mjkrkqjk"
+            method="POST"
+          >
+            <label for="name" class="form_label">Nombre</label>
+            <input id="name" name="name" class="form_input" />
+            <label for="email" class="form_label">Email</label>
+            <input id="email" name="email" class="form_input" />
+            <label for="message" class="form_label">Mensaje</label>
+            <textarea
+              id="message"
+              name="message"
+              class="form_input-message"
+            ></textarea>
+            <button class="button_form" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-container-img">
+          <img src="https://i.ibb.co/BHtQbtKw/Social-Icons-3.png" alt="" />
+          <img src="https://i.ibb.co/0prcSvDt/Social-Icons-2.png" alt="" />
+          <img src="https://i.ibb.co/PnX8B8Z/Social-Icons-1.png" alt="" />
+          <img src="https://i.ibb.co/jZ67vP4J/Social-Icons.png" alt="" />
+        </div>
+        <div class="footer-logo">
+          <img
+            src="https://i.ibb.co/1GX6R9Pz/Logo-fondo-F8-D57-E.png"
+            alt=""
+            class="footer_image"
+          />
+          <p class="footer-logo-text">don'T Expire</p>
+        </div>
+      </div>
+      <p class="footer-signature">© 2025 Jeremias</p>
+    </footer>
   </body>
 </html>
