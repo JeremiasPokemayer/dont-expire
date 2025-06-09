@@ -79,7 +79,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 40px 40px 20px 20px;
 }
 .informacion-ctn-img-container {
   flex-grow: 1; /* Hace que este div ocupe todo el espacio restante */
@@ -100,7 +100,9 @@ body {
   flex-direction: column;
   width: 100%;
   text-align: center;
-  background-color: #2a3a4e;
+  background-color: #1b2a41;
+  /* background-color: #1b2a41e5 #1B2A41E5; */
+
   margin: 0;
   padding: 13px 8px;
   border-radius: 20px;
@@ -123,5 +125,66 @@ body {
   }
   .informacion-card-two {
     margin-top: 61px;
+  }
+}
+
+/* fin informacion  */
+/* inicio footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #f8d57e; */
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container-img {
+  /* margin-left: 119px; */
+  padding-left: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.footer-container-img img {
+  width: 32px;
+  height: auto;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 22px;
+}
+.footer-logo img {
+}
+.footer-logo-text {
+  display: none;
+  font-family: "Rock Salt";
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 130%;
+  margin: 0;
+}
+.footer-signature {
+  margin-top: 74px;
+  /* margin-left: 119px; */
+  text-align: center;
+  font-family: "Mulish";
+}
+@media (min-width: 768px) {
+  .footer-logo-text {
+    display: block;
+  }
+}
+@media (min-width: 1280px) {
+  .footer-signature {
+    text-align: left;
+    margin-left: 119px;
+  }
+  .footer-container-img {
+    padding: 0;
+    margin-left: 119px;
   }
 }
